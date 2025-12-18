@@ -27,18 +27,14 @@ The system uses a relational database named `gym_management_system` with the fol
 * `trainer_assignment`: Links members to their respective trainers.
 
 ## ⚙️ Installation
-1.  **Clone the repository**:
-    ```bash
-    git clone [https://github.com/alaminshubo/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    ```
-2.  **Setup Database**:
+1.  **Setup Database**:
     * Open PHPMyAdmin.
     * Create a database named `gym_management_system`.
     * Import the provided `gym_management_system.sql` file.
-3.  **Configure Connection**:
+2.  **Configure Connection**:
     * Open `config.php`.
     * Update the `$host`, `$user`, `$pass`, and `$db` variables to match your local server environment.
-4.  **Run Application**:
+3.  **Run Application**:
     * Move the project folder to your server directory (e.g., `htdocs` for XAMPP).
     * Access via `http://localhost/your-folder-name/index.php`.
 
